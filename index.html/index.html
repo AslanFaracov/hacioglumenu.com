@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="img">
+            <img src="hacioglu.jpeg">
+        </div>
+        <h1>Xoş Gəlmisiniz</h1>
+
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Yemək axtar...">
+        </div>
+
+        <div class="category-list">
+            
+            <a href="#breakfast">Səhər Yeməyi</a>
+            <a href="#salats">Salatlar</a>
+            <a href="#eats">Yeməklər</a>
+            <a href="#fishs">Balıqlar</a>
+            <a href="#soup">Şorbalar</a>
+            <a href="#qarnir"> Sadə qarnirlər</a>
+            <a href="#barbecu"> Kabablar</a>
+            <a href="#pizza"> Lahmacun,Pizza</a>
+            <a href="#candy">Şirniyyatlar</a>
+            <a href="#acid">Turşular</a>
+            <a href="#hotdrink"> Isti içəcəklər</a>
+            <a href="#colddirink"> Soyuq içəceklər</a>
+            <a href="#doner">Hacıoğlu Dönər</a>
+
+        </div>
+
+        <div class="category" id="breakfast">
+            <h2>Səhər Yeməyi</h2>
+            <div class="item" data-item-id="1" onclick="openModal(this)">
+                <div>
+                    <h3>Soyutma Yumurta</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.70₼</span>
+            </div>
+            <div class="item" data-item-id="2" onclick="openModal(this)">
+                <div>
+                    <h3>Soyutma Kənd Yumurtası</h3>
+                    <p> Ətraflı bax........</p>
+                </div>
+                <span class="price">0.70₼</span>
+            </div>
+            <div class="item" data-item-id="3" onclick="openModal(this)" >
+                <div>
+                    <h3>Sosiska(soyutma)</h3>
+                    <p>Ətraflı bax.........</p>
+                </div>
+                <span class="price">1.30₼</span>
+            </div>
+            <div class="item" data-item-id="4" onclick="openModal(this)">
+                <div>
+                    <h3>Kənd Şoru</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.50₼</span>
+            </div>
+            <div class="item" data-item-id="5" onclick="openModal(this)">
+                <div>
+                    <h3>Zeytun</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.50₼</span>
+            </div>
+            <div class="item" data-item-id="6" onclick="openModal(this)">
+                <div>
+                    <h3>Qaymaq</h3>
+                    <p> Ətraflı bax........</p>
+                </div>
+                <span class="price">2.50₼</span>
+            </div>
+            <div class="item" data-item-id="7" onclick="openModal(this)">
+                <div>
+                    <h3>Kənd Pendiri</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.50₼</span>
+            </div>
+            <div class="item " data-item-id="8" onclick="openModal(this)">
+                <div>
+                    <h3>Kərə Yağı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.80₼</span>
+            </div>
+            <div class="item" data-item-id="9" onclick="openModal(this)">
+                <div>
+                    <h3>Nehrə Yağı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="10" onclick="openModal(this)">
+                <div>
+                    <h3>Bal</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.00</span>
+            </div>
+            <div class="item" data-item-id="11" onclick="openModal(this)">
+                <div>
+                    <h3>Qayğanaq(göz)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.50₼</span>
+            </div>
+            <div class="item" data-item-id="12" onclick="openModal(this)">
+                <div>
+                    <h3>Yağ-Pendir</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.20₼</span>
+            </div>
+            <div class="item" data-item-id="13" onclick="openModal(this)">
+                <div>
+                    <h3>Kolbasa</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.20₼</span>
+            </div>
+            <div class="item" data-item-id="14" onclick="openModal(this)">
+                <div>
+                    <h3>Südlü Aş(sıyıq)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.50₼</span>
+            </div>
+            <div class="item" data-item-id="15" onclick="openModal(this)">
+                <div>
+                    <h3>Motal pendiri</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.50₼</span>
+            </div>
+            <div class="item" data-item-id="16" onclick="openModal(this)">
+                <div>
+                    <h3>Pomidor-Yumurta</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.00₼</span>
+            </div>
+            <div class="item" data-item-id="17" onclick="openModal(this)">
+                <div>
+                    <h3>Sosiska(kolbasa) Yumurta</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.00₼</span>
+            </div>
+            <div class="item" data-item-id="18" onclick="openModal(this)">
+                <div>
+                    <h3>Kükü</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.50₼</span>
+            </div>
+            <div class="item" data-item-id="19" onclick="openModal(this)">
+                <div>
+                    <h3>Sucuklu yumurta</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.50₼</span>
+            </div>
+        </div>
+    
+        <div class="category" id="salats">
+            <h2>Salatlar</h2>
+            <div class="item" data-item-id="20" onclick="openModal(this)">
+                <div>
+                    <h3>Süzmə</h3>
+                    <p>Ətraflı bax.........</p>
+                </div>
+                <span class="price">1.50₼</span>
+            </div>
+            <div class="item" data-item-id="21" onclick="openModal(this)">
+                <div>
+                    <h3> Acika</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">1.50₼</span>
+            </div>
+            <div class="item" data-item-id="22" onclick="openModal(this)">
+                <div>
+                    <h3>Göyərti</h3>
+                <p> Ətraflı bax........</p>
+                </div>
+                <span class="price">1.50₼</span>
+            </div>
+            <div class="item" data-item-id="23" onclick="openModal(this)">
+                <div>
+                    <h3>Pomidor-xiyar</h3>
+                <p> Ətraflı bax........</p>
+                </div>
+                <span class="price">2.00₼</span>
+            </div>
+            
+            <div class="item" data-item-id="24" onclick="openModal(this)">
+                <div>
+                    <h3>Çoban salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.80₼</span>
+            </div>
+            <div class="item" data-item-id="25" onclick="openModal(this)">
+                <div>
+                    <h3>Paytaxt salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="26" onclick="openModal(this)">
+                <div>
+                    <h3>Mimoza salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="27" onclick="openModal(this)">
+                <div>
+                    <h3>Vingred salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="28" onclick="openModal(this)">
+                <div>
+                    <h3>Mangal salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="29" onclick="openModal(this)">
+                <div>
+                    <h3>Şuba salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="30" onclick="openModal(this)">
+                <div>
+                    <h3>Lavaş salatı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00</span>
+            </div>
+            <div class="item" data-item-id="31" onclick="openModal(this)">
+                <div>
+                    <h3>Meyvə (mövsumə görə)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">xxx₼</span>
+            </div>
+        </div>
+    
+        <div class="category" id="eats">
+            <h2>Yeməklər</h2>
+            <div class="item" data-item-id="32" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq kotleti ( 1 ədəd)</h3>
+                    <p>Ətraflı bax.........</p>
+                </div>
+                <span class="price">1.90₼</span>
+            </div>
+            <div class="item" data-item-id="33" onclick="openModal(this)">
+                <div>
+                    <h3>Ət kotleti( 1 ədəd)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.40₼</span>
+            </div>
+            <div class="item" data-item-id="34" onclick="openModal(this)">
+                <div>
+                    <h3>Kievski kotlet ( 1 ədəd)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.50₼</span>
+            </div>
+            <div class="item" data-item-id="35" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq langet</h3>
+                    <p>Ətraflı bax.........</p>
+                </div>
+                <span class="price">4.00₼</span>
+            </div>
+            <div class="item" data-item-id="36" onclick="openModal(this)">
+                <div>
+                    <h3>Ətli börək</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.20₼</span>
+            </div>
+            <div class="item" data-item-id="37" onclick="openModal(this)">
+                <div>
+                    <h3>Xəngəl</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.50₼</span>
+            </div>
+            <div class="item" data-item-id="38" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq yeməkləri (qarnirlə)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50₼</span>
+            </div>
+            <div class="item" data-item-id="39" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq qulyaş</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50₼</span>
+            </div>
+            <div class="item" data-item-id="40" onclick="openModal(this)">
+                <div>
+                    <h3>Ət qulyaş</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="41" onclick="openModal(this)">
+                <div>
+                    <h3>Qazan kotleti</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="42" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq souzu</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50₼</span>
+            </div>
+            <div class="item" data-item-id="43" onclick="openModal(this)">
+                <div>
+                    <h3>Ət souzu / Bozbaş</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="44" onclick="openModal(this)">
+                <div>
+                    <h3>Ət musaqqa</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="45" onclick="openModal(this)">
+                <div>
+                    <h3>Tərəvəz qizartma</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50</span>
+            </div>
+            <div class="item" data-item-id="46" onclick="openModal(this)">
+                <div>
+                    <h3>Dolmalar</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="47" onclick="openModal(this)">
+                <div>
+                    <h3>Kənd cücəsi çığırtması ( pors) </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="48" onclick="openModal(this)">
+                <div>
+                    <h3>Ət yeməkləri ( qarnirlə)</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="49" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq qovurma </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="50" onclick="openModal(this)">
+                <div>
+                    <h3>Kalafur/Buğlama</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="51" onclick="openModal(this)">
+                <div>
+                    <h3>Piti</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="52" onclick="openModal(this)">
+                <div>
+                    <h3>Julyen</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="189" onclick="openModal(this)">
+                <div>
+                    <h3>Quzu xaşdama</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="53" onclick="openModal(this)">
+                <div>
+                    <h3>Ətli nar qovurma</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="54" onclick="openModal(this)">
+                <div>
+                    <h3>Qaymaqlı toyuq </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="188" onclick="openModal(this)">
+                <div>
+                    <h3>Şirəli dana </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="55" onclick="openModal(this)">
+                <div>
+                    <h3>Hasan paşa koftə</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="56" onclick="openModal(this)">
+                <div>
+                    <h3>İzmir köftəsi</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="57" onclick="openModal(this)">
+                <div>
+                    <h3>Şah plov ( pors )</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">7.00₼</span>
+            </div>
+            <div class="item" data-item-id="58" onclick="openModal(this)">
+                <div>
+                    <h3>Quzu təndir ( pors )</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="59" onclick="openModal(this)">
+                <div>
+                    <h3>Kənd cücəsi ( soyutma )</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">15.00₼</span>
+            </div>
+            <div class="item" data-item-id="60" onclick="openModal(this)">
+                <div>
+                    <h3>Kənd cücəsi çığırtması ( bütöv )</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">18.00₼</span>
+            </div>
+            <div class="item" data-item-id="61" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq ləvangisi</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">20.00₼</span>
+            </div>
+            <div class="item" data-item-id="62" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq sacı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">20.00₼</span>
+            </div>
+            <div class="item" data-item-id="63" onclick="openModal(this)">
+                <div>
+                    <h3>Baliq ləvəngisi</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">25.00₼</span>
+            </div>
+            <div class="item" data-item-id="64" onclick="openModal(this)">
+                <div>
+                    <h3>Quzu sacı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">27.00₼</span>
+            </div>
+        </div>
+    
+        <div class="category" id="fishs">
+            <h2>Balıqlar</h2>
+            <div class="item" data-item-id="65" onclick="openModal(this)">
+                <div>
+                    <h3>Çəki</h3>
+                    <p></p>
+                </div>
+                <span class="price">xxx</span>
+            </div>
+            <div class="item" data-item-id="66" onclick="openModal(this)">
+                <div>
+                    <h3>Xaşam</h3>
+                    <p></p>
+                </div>
+                <span class="price">xxx</span>
+            </div>
+            <div class="item" data-item-id="67" onclick="openModal(this)">
+                <div>
+                    <h3>Kütüm</h3>
+                    <p></p>
+                </div>
+                <span class="price">xxx</span>
+            </div>
+            <div class="item" data-item-id="68" onclick="openModal(this)">
+                <div>
+                    <h3>Balıq (setkada)</h3>
+                    <p></p>
+                </div>
+                <span class="price">xxx</span>
+            </div>
+            <div class="item" data-item-id="69" onclick="openModal(this)">
+                <div>
+                    <h3>Belamur</h3>
+                    <p></p>
+                </div>
+                <span class="price">xxx</span>
+            </div>
+            <div class="item" data-item-id="70" onclick="openModal(this)">
+                <div>
+                    <h3>Asatrin</h3>
+                    <p></p>
+                </div>
+                <span class="price">xxx</span>
+            </div>
+        </div>
+        <div class="category" id="soup">
+            <h2>Şorbalar</h2>
+            <div class="item" data-item-id="71" onclick="openModal(this)">
+                <div>
+                    <h3>Dovğa stəkanda</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.80₼</span>
+            </div>
+    
+            
+        <div class="item" data-item-id="72" onclick="openModal(this)">
+            <div>
+                <h3>Dovğa bakalda</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">1.50₼</span>
+        </div>
+        <div class="item" data-item-id="73" onclick="openModal(this)">
+            <div>
+                <h3>Dovğa kasada</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">2.80₼</span>
+        </div>
+        <div class="item" data-item-id="74" onclick="openModal(this)">
+            <div>
+                <h3>Mərci</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.00₼</span>
+        </div>
+        <div class="item" data-item-id="75" onclick="openModal(this)">
+            <div>
+                <h3> Yayla supu</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.00₼</span>
+        </div>
+        <div class="item" data-item-id="76" onclick="openModal(this)">
+            <div>
+                <h3>Toyuq supu</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.00₼</span>
+        </div>
+        <div class="item" data-item-id="77" onclick="openModal(this)">
+            <div>
+                <h3>Borş</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.50₼</span>
+        </div>
+        <div class="item" data-item-id="78" onclick="openModal(this)">
+            <div>
+                <h3>Quru fasulyə</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.50₼</span>
+        </div>
+        <div class="item" data-item-id="79" onclick="openModal(this)">
+            <div>
+                <h3>Hinduşka supu</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.50₼</span>
+        </div>
+        <div class="item" data-item-id="80" onclick="openModal(this)">
+            <div>
+                <h3>Düşbərə</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.50₼</span>
+        </div>
+        <div class="item" data-item-id="81" onclick="openModal(this)">
+            <div>
+                <h3>Kənd cücə supu</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.00₼</span>
+        </div>
+        <div class="item" data-item-id="82" onclick="openModal(this)">
+            <div>
+                <h3>Göbələkli şorba </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.00₼</span>
+        </div>
+        <div class="category" id="qarnir">
+            <h2>Sadə qarnirlər</h2>
+            <div class="item" data-item-id="83" onclick="openModal(this)">
+                <div>
+                    <h3>Düyü </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="84" onclick="openModal(this)">
+                <div>
+                    <h3>Qreçka </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="85" onclick="openModal(this)">
+                <div>
+                    <h3>Makaron </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="86" onclick="openModal(this)">
+                <div>
+                    <h3>Püre </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="87" onclick="openModal(this)">
+                <div>
+                    <h3>Spagetti </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="88" onclick="openModal(this)">
+                <div>
+                    <h3>Verməşil </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="89" onclick="openModal(this)">
+                <div>
+                    <h3>Bulqur </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.20₼</span>
+            </div>
+            <div class="item" data-item-id="90" onclick="openModal(this)" >
+                <div>
+                    <h3>Fri </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.80₼</span>
+            </div>
+    
+
+
+        </div>
+        <div class="category" id="barbecu">
+            <h2>Kabablar</h2>
+            <div class="item" data-item-id="91" onclick="openModal(this)">
+            <div>
+                <h3>Kartof kababı </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.00₼</span>
+        </div>
+        <div class="item" data-item-id="184" onclick="openModal(this)" >
+                <div>
+                    <h3>Tərəvəz kababı </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="92" onclick="openModal(this)">
+                <div>
+                    <h3>Kartof lüləsi </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.50₼</span>
+            </div>
+            <div class="item" data-item-id="93" onclick="openModal(this)">
+                <div>
+                    <h3>Kartof kababı(quyruqla) </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">4.50₼</span>
+            </div>
+            <div class="item" data-item-id="94" onclick="openModal(this)">
+                <div>
+                    <h3>Toyuq kababı</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50₼</span>
+            </div>
+            
+            <div class="item" data-item-id="95" onclick="openModal(this)">
+                <div>
+                    <h3>Ciyər içalat </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50₼</span>
+            </div>
+            <div class="item" data-item-id="96" onclick="openModal(this)">
+                <div>
+                    <h3>Xan kababı </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.50₼</span>
+            </div>
+            <div class="item" data-item-id="97" onclick="openModal(this)">
+                <div>
+                    <h3>Lülə </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.50₼</span>
+            </div>
+            <div class="item" data-item-id="98" onclick="openModal(this)">
+                <div>
+                    <h3>Tikə </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">7.50₼</span>
+            </div>
+            <div class="item" data-item-id="99" onclick="openModal(this)">
+                <div>
+                    <h3> Dana basdırması</h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">8.00₼</span>
+            </div>
+            <div class="item" data-item-id="100" onclick="openModal(this)">
+                <div>
+                    <h3>Antrikot </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">8.50₼</span>
+            </div>
+            <div class="item" data-item-id="101" onclick="openModal(this)">
+                <div>
+                    <h3>Hinduşka kababı </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">8.50₼</span>
+            </div>
+            <div class="item" data-item-id="102" onclick="openModal(this)">
+                <div>
+                    <h3>Qarırışıq kabab </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">12.00₼</span>
+            </div>
+            <div class="item" data-item-id="103" onclick="openModal(this)">
+                <div>
+                    <h3>Kənd çolpası(setkada) </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">17.00₼</span>
+            </div>
+        </div>
+        <div class="category" id="pizza">
+            <h2>Lahmacun,pizza</h2>
+        
+        <div class="item" data-item-id="104" onclick="openModal(this)">
+            <div>
+                <h3>Sadə lahmacun </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.00₼</span>
+        </div>
+        <div class="item" data-item-id="105" onclick="openModal(this)">
+            <div>
+                <h3>Acılı lahmacun </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.00₼</span>
+        </div>
+        <div class="item" data-item-id="106" onclick="openModal(this)">
+            <div>
+                <h3>Pendirli lahmacun </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">3.50₼</span>
+        </div>
+        <div class="item" data-item-id="107" onclick="openModal(this)">
+            <div>
+                <h3>Hacıoğlu qarışıq lahmacun </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">4.00₼</span>
+        </div>
+        <div class="item" data-item-id="108" onclick="openModal(this)">
+            <div>
+                <h3>Sadə pizza(böyük)</h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">10.00₼</span>
+        </div>
+        <div class="item" data-item-id="109" onclick="openModal(this)">
+            <div>
+                <h3>Sadə pizza (kiçik) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.00₼</span>
+        </div>
+        <div class="item" data-item-id="110" onclick="openModal(this)">
+            <div>
+                <h3>Toyuqlu pizza (böyük) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">10.00₼</span>
+        </div>
+        <div class="item" data-item-id="111" onclick="openModal(this)">
+            <div>
+                <h3>Toyuqlu pizza ( kiçik) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.00₼</span>
+        </div>
+        <div class="item" data-item-id="112" onclick="openModal(this)">
+            <div>
+                <h3>Qıymalı Pidə </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">6.50₼</span>
+        </div>
+        <div class="item" data-item-id="113" onclick="openModal(this)">
+            <div>
+                <h3>Quşbaşı pidə </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.00₼</span>
+        </div>
+        <div class="item" data-item-id="114" onclick="openModal(this)">
+            <div>
+                <h3>Sosisli pizza(böyük) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">10.50₼</span>
+        </div>
+        <div class="item" data-item-id="115" onclick="openModal(this)">
+            <div>
+                <h3>Sosisli pizza(kiçik) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.50₼</span>
+        </div>
+        <div class="item" data-item-id="116" onclick="openModal(this)">
+            <div>
+                <h3>Qarışıq pide </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.90₼</span>
+        </div>
+        <div class="item" data-item-id="117" onclick="openModal(this)">
+            <div>
+                <h3>Pendirli pide </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.00₼</span>
+        </div>
+        <div class="item" data-item-id="118" onclick="openModal(this)">
+            <div>
+                <h3>Ətli pizza(böyük) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">10.50₼</span>
+        </div>
+        <div class="item" data-item-id="119" onclick="openModal(this)">
+            <div>
+                <h3>Ətli pizza (kiçik) </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">7.50₼</span>
+        </div>
+        <div class="item" data-item-id="120" onclick="openModal(this)">
+            <div>
+                <h3>Hacıoğlu qarışıq pizza </h3>
+                <p>Ətraflı bax........</p>
+            </div>
+            <span class="price">12.00₼</span>
+        </div>
+        <div class="category" id="candy">
+            <h2>Şirniyyatlar</h2>
+            <div class="item" data-item-id="121" onclick="openModal(this)">
+                <div>
+                    <h3>Keks </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.70₼</span>
+            </div>
+            <div class="item" data-item-id="122" onclick="openModal(this)">
+                <div>
+                    <h3>Şəkərçörəyi </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.70₼</span>
+            </div>
+            <div class="item" data-item-id="123" onclick="openModal(this)">
+                <div>
+                    <h3>Qoğal </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.90₼</span>
+            </div>
+            <div class="item" data-item-id="124" onclick="openModal(this)">
+                <div>
+                    <h3>Bulka </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.90₼</span>
+            </div>
+            <div class="item" data-item-id="125" onclick="openModal(this)">
+                <div>
+                    <h3>Turbuçka </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.80₼</span>
+            </div>
+            <div class="item" data-item-id="126" onclick="openModal(this)">
+                <div>
+                    <h3>Simit </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.80₼</span>
+            </div>
+            <div class="item" data-item-id="127" onclick="openModal(this)">
+                <div>
+                    <h3>Ekler </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">0.90₼</span>
+            </div>
+            <div class="item" data-item-id="128" onclick="openModal(this)">
+                <div>
+                    <h3>Kətə </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">1.20₼</span>
+            </div>
+            <div class="item" data-item-id="129" onclick="openModal(this)">
+                <div>
+                    <h3>Milli paxlava </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">1.20₼</span>
+            </div>
+            <div class="item" data-item-id="130" onclick="openModal(this)">
+                <div>
+                    <h3>Pirojna cemli </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">1.00₼</span>
+            </div>
+            <div class="item" data-item-id="131" onclick="openModal(this)">
+                <div>
+                    <h3>Pirojna </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">1.70₼</span>
+            </div>
+            <div class="item" data-item-id="185" onclick="openModal(this)">
+                <div>
+                    <h3>Ballı tort  </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.80₼</span>
+            </div>
+            <div class="item" data-item-id="186" onclick="openModal(this)">
+                <div>
+                    <h3>Spartak tortu  </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.80₼</span>
+            </div>
+            <div class="item" data-item-id="187" onclick="openModal(this)">
+                <div>
+                    <h3>Napoleon tortu  </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">2.80₼</span>
+            </div>
+            <div class="item" data-item-id="132" onclick="openModal(this)">
+                <div>
+                    <h3>Sinikers </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="133" onclick="openModal(this)">
+                <div>
+                    <h3>Sütlaç </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">3.00₼</span>
+            </div>
+            <div class="item" data-item-id="134" onclick="openModal(this)">
+                <div>
+                    <h3>Mürəbbə </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">5.00₼</span>
+            </div>
+            <div class="item" data-item-id="135" onclick="openModal(this)">
+                <div>
+                    <h3>Künefə </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">6.00₼</span>
+            </div>
+            <div class="item" data-item-id="136" onclick="openModal(this)">
+                <div>
+                    <h3>Tortlar(1kq) </h3>
+                    <p>Ətraflı bax........</p>
+                </div>
+                <span class="price">15.00₼</span>
+            </div>
+            <div class="category" id="acid">
+                <h2>Turşular</h2>
+                <div class="item" data-item-id="137" onclick="openModal(this)">
+                    <div>
+                        <h3>Kələm </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">2.00₼</span>
+                </div>
+                <div class="item" data-item-id="138" onclick="openModal(this)">
+                    <div>
+                        <h3>Xiyar </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">2.00₼</span>
+                </div>
+                <div class="item" data-item-id="139" onclick="openModal(this)">
+                    <div>
+                        <h3>Bibər </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">2.00₼</span>
+                </div>
+                <div class="item" data-item-id="140" onclick="openModal(this)">
+                    <div>
+                        <h3>Alça </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">2.00₼</span>
+                </div>
+                <div class="item" data-item-id="141" onclick="openModal(this)">
+                    <div>
+                        <h3>Badımcan </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">2.00₼</span>
+                </div>
+                <div class="item" data-item-id="142" onclick="openModal(this)">
+                    <div>
+                        <h3>Sarımsaq </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">2.00₼</span>
+                </div>
+                <div class="item" data-item-id="143" onclick="openModal(this)">
+                    <div>
+                        <h3>Assorti </h3>
+                        <p>Ətraflı bax........</p>
+                    </div>
+                    <span class="price">5.00₼</span>
+                </div>
+                <div class="category" id="hotdrink">
+                    <h2>İsti içəcəklər</h2>
+                    <div class="item" data-item-id="144" onclick="openModal(this)">
+                        <div>
+                            <h3>Çay (fincanda) </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">0.50₼</span>
+                    </div>
+                    <div class="item" data-item-id="145" onclick="openModal(this)">
+                        <div>
+                            <h3>Çay </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">2.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="146" onclick="openModal(this)">
+                        <div>
+                            <h3>Süd </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">1.50₼</span>
+                    </div>
+                    <div class="item" data-item-id="147" onclick="openModal(this)">
+                        <div>
+                            <h3>Kofe </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">1.30₼</span>
+                    </div>
+                    <div class="item" data-item-id="148" onclick="openModal(this)">
+                        <div>
+                            <h3>İsti şokolad </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">1.50₼</span>
+                    </div>
+                    <div class="item" data-item-id="149" onclick="openModal(this)">
+                        <div>
+                            <h3>Cappuccino </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">3.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="150" onclick="openModal(this)">
+                        <div>
+                            <h3>Americano </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">3.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="151" onclick="openModal(this)">
+                        <div>
+                            <h3>Espresso </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">3.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="152" onclick="openModal(this)">
+                        <div>
+                            <h3>Cofe extra </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">4.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="153" onclick="openModal(this)">
+                        <div>
+                            <h3>Cofe Latte </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">3.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="154" onclick="openModal(this)">
+                        <div>
+                            <h3>Çay dəzgahı çaynik </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">15.00₼</span>
+                    </div>
+                    <div class="item" data-item-id="155" onclick="openModal(this)">
+                        <div>
+                            <h3>Çay dəzgahı Somavar </h3>
+                            <p>Ətraflı bax........</p>
+                        </div>
+                        <span class="price">25.00₼</span>
+                    </div>
+                    <div class="category" id="colddirink">
+                        <h2>Soyuq içəceklər</h2>
+                        <div class="item" data-item-id="156" onclick="openModal(this)">
+                            <div>
+                                <h3>Ayran </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="157" onclick="openModal(this)">
+                            <div>
+                                <h3>Qatıq </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="158" onclick="openModal(this)">
+                            <div>
+                                <h3>Su(qazlı/qazsız)0.5lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">0.70₼</span>
+                        </div>
+                        <div class="item" data-item-id="159" onclick="openModal(this)">
+                            <div>
+                                <h3>Su(qazlı/qazsız)  1.0lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.20₼</span>
+                        </div>
+                        <div class="item" data-item-id="160" onclick="openModal(this)">
+                            <div>
+                                <h3>Cola Fanta Sprite Pepsi 0.5lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.20₼</span>
+                        </div>
+                        <div class="item" data-item-id="161" onclick="openModal(this)">
+                            <div>
+                                <h3>Cola Fanta Sprite Pepsi 1.0lt</h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="162" onclick="openModal(this)">
+                            <div>
+                                <h3>Duşes tərxun(şüşə) 0.5lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="163" onclick="openModal(this)">
+                            <div>
+                                <h3>Sirab Badamlı(şüşə)  0.5lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.50₼</span>
+                        </div>
+                        <div class="item" data-item-id="164" onclick="openModal(this)">
+                            <div>
+                                <h3>Cola Fanta Sprite Pepsi (şüşə,qutuda) </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.50₼</span>
+                        </div>
+                        <div class="item" data-item-id="165" onclick="openModal(this)">
+                            <div>
+                                <h3>Cappy 0.5lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.70₼</span>
+                        </div>
+                        <div class="item" data-item-id="166" onclick="openModal(this)">
+                            <div>
+                                <h3>Fuse tea , Lipton , i am tea 0.5lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.70₼</span>
+                        </div>
+                        <div class="item" data-item-id="167" onclick="openModal(this)">
+                            <div>
+                                <h3>Fuse tea , Lipton , i am tea 1.0lt  </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.50₼</span>
+                        </div>
+                        <div class="item" data-item-id="168" onclick="openModal(this)">
+                            <div>
+                                <h3>Kompot </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">3.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="169" onclick="openModal(this)">
+                            <div>
+                                <h3>Cappy 1.0lt </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">3.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="170" onclick="openModal(this)">
+                            <div>
+                                <h3>Fresh </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">5.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="171" onclick="openModal(this)">
+                            <div>
+                                <h3>RedBull </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">5.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="172" onclick="openModal(this)">
+                            <div>
+                                <h3>Hell Energy </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="173" onclick="openModal(this)">
+                            <div>
+                                <h3>Aquavita 0.5l (qazlı/qazsız) </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">0.70₼</span>
+                        </div>
+                        <div class="item" data-item-id="174" onclick="openModal(this)">
+                            <div>
+                                <h3>Gülüstan 0.5l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="175" onclick="openModal(this)">
+                            <div>
+                                <h3>Gülüstan 1.0l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="176" onclick="openModal(this)">
+                            <div>
+                                <h3>Milla ayran 0.2l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">0.80₼</span>
+                        </div>
+                        <div class="item" data-item-id="176" onclick="openModal(this)">
+                            <div>
+                                <h3>Milla ayran 0.33l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.20₼</span>
+                        </div>
+                        <div class="item" data-item-id="176" onclick="openModal(this)">
+                            <div>
+                                <h3>Milla ayran 1.0l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">x₼</span>
+                        </div>
+                        <div class="item" data-item-id="180" onclick="openModal(this)">
+                            <div>
+                                <h3>Mia limonad 0.5l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">1.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="181" onclick="openModal(this)">
+                            <div>
+                                <h3>Mia limonad 1.0l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="181" onclick="openModal(this)">
+                            <div>
+                                <h3>Mia (şüşə) 1.0l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.50₼</span>
+                        </div>
+                        <div class="item" data-item-id="177" onclick="openModal(this)">
+                            <div>
+                                <h3>Coolmix (limonad) </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">5.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="178" onclick="openModal(this)">
+                            <div>
+                                <h3>Zadezani </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="179" onclick="openModal(this)">
+                            <div>
+                                <h3>Maccofe </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="183" onclick="openModal(this)">
+                            <div>
+                                <h3>Qızıl quyu 0.5 l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.00₼</span>
+                        </div>
+                        <div class="item" data-item-id="183" onclick="openModal(this)">
+                            <div>
+                                <h3>Qızıl quyu  1.0l </h3>
+                                <p>Ətraflı bax........</p>
+                            </div>
+                            <span class="price">2.80₼</span>
+                        </div>
+                        <div class="category" id="doner">
+                            <h2>Hacıoglu Dönər</h2>
+                            <div class="item" data-item-id="190" onclick="openModal(this)">
+                                <div>
+                                    <h3>Ət dönəri  cörək/lavaş </h3>
+                                    <p>Ətraflı bax........</p>
+                                </div>
+                                <span class="price">3.20₼</span>
+                            </div>
+                            <div class="item" data-item-id="191" onclick="openModal(this)">
+                                <div>
+                                    <h3>Toyuq dönəri  cörək/lavaş </h3>
+                                    <p>Ətraflı bax........</p>
+                                </div>
+                                <span class="price">2.70₼</span>
+                            </div>
+                            <div class="item" data-item-id="190" onclick="openModal(this)">
+                                <div>
+                                    <h3>Ət dönər (böyük) </h3>
+                                    <p>Ətraflı bax........</p>
+                                </div>
+                                <span class="price">5.00₼</span>
+                            </div>
+                            <div class="item" data-item-id="193" onclick="openModal(this)">
+                                <div>
+                                    <h3>Pulovüstü dönər </h3>
+                                    <p>Ətraflı bax........</p>
+                                </div>
+                                <span class="price">8.50₼</span>
+                            </div>
+                            <div class="item" data-item-id="194" onclick="openModal(this)">
+                                <div>
+                                    <h3>Porsion dönər </h3>
+                                    <p>Ətraflı bax........</p>
+                                </div>
+                                <span class="price">7.50₼</span>
+                            </div>
+                            <div class="item" data-item-id="192" onclick="openModal(this)">
+                                <div>
+                                    <h3>Isgəndər </h3>
+                                    <p>Ətraflı bax........</p>
+                                </div>
+                                <span class="price">11.00₼</span>
+                            </div>
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="" style="width:100%; height:auto;">
+            <p id="modal-description"></p>
+            <p id="modal-price"></p>
+        </div>
+    </div>
+    
+    
+
+    <button class="back-to-top" id="backToTopBtn">Yukarı Çık</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
